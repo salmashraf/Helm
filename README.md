@@ -11,6 +11,7 @@ Repo link: https://hub.docker.com/repositories/salashraf
 ### 2- Create python and redis charts.
 
 helm create redis-chart
+
 helm create python-chart
 
 ### 3- Edit values.yaml files in both folders. 
@@ -19,4 +20,5 @@ helm create python-chart
 
 ### 5- 
 helm install redis ./redis-chart/
+
 helm install python-app ./python-chart/
