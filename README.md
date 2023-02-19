@@ -2,6 +2,7 @@
 ### 1- Pushing python and redis images to dockerhub. 
 
 Docker.io/salashraf/redis
+
 Docker.io/salashraf/python
 
 
